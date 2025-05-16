@@ -51,7 +51,7 @@ public class ScoreManager : MonoBehaviour
             {
                
                 SaveScore();
-                SceneManager.LoadScene(3);
+                SceneManager.LoadScene(7);
             }
         }
     }
