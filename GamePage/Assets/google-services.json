@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "397791438949",
+    "project_id": "lootarcadia",
+    "storage_bucket": "lootarcadia.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:397791438949:android:bfc20a41df9684e5a7fe8c",
+        "android_client_info": {
+          "package_name": "com.lootarcadia.db"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8s_3gl9QtbWfmtMGi1dgG1a-nnastQYs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
