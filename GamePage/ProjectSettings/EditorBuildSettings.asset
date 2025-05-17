@@ -29,7 +29,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Replay.unity
     guid: e6d18edc0bcb1384496d7509a9ba260b
-  - enabled: 1
-    path: Assets/Scenes/Guidance.unity
-    guid: 92bbc89b0fdd0b441b49b98e61d508a5
   m_configObjects: {}

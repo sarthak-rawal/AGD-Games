@@ -13,7 +13,7 @@ public class ChangeScene : MonoBehaviour
     }
     public void MarketPlace()
     {
-        Application.OpenURL("https://sarthakrawal.my.canva.site/demosite");
+        Application.OpenURL("https://ar-gweb.vercel.app/");
     }
     public void ExitGame()
     {
