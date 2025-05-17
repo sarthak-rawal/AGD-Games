@@ -13,7 +13,7 @@ public class ScrollBackground : MonoBehaviour
 
     void Update()
     {
-        float offset = Time.time * scrollSpeed;
+        float offset = Time.deltaTime * scrollSpeed;
         rend.material.mainTextureOffset = new Vector2(offset, 0);
     }
 }

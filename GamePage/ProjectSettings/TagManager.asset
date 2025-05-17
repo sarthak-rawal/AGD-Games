@@ -6,6 +6,13 @@ TagManager:
   tags:
   - AIGoal
   - PlayerGoal
+  - enemy
+  - border
+  - Bullet
+  - XP
+  - 5XP
+  - LOSS
+  - Stone
   layers:
   - Default
   - TransparentFX

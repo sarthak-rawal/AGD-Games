@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovementOne : MonoBehaviour
 {
@@ -22,5 +23,12 @@ public class PlayerMovementOne : MonoBehaviour
     private void FixedUpdate()
     {
         rb.velocity = new Vector2(Mathf.Clamp(plydir.x, -1f, 1f) * movementSpeed * Time.fixedDeltaTime, 0f);
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("enemy"))
+        {
+            SceneManager.LoadScene(7);
+        }
     }
 }
